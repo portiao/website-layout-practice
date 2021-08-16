@@ -1,0 +1,336 @@
+.container-header{
+    justify-self: center;
+    
+}
+
+.main-header .container-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+}
+/* hamburger */
+.mobile-menu-btn{
+    color: black;
+    font-size: 1.8rem;
+    align-self: center;
+    padding-right: 30px;
+}
+
+div.logo img{
+    width: 100%;
+    height: 0 auto;
+    max-width: 150px;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+    
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0 15px;
+}
+
+.nav-icon ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+.nav-icon ul li{
+    padding-left: 15px;
+}
+
+li>span{
+    font-size: 0.8rem;
+}
+
+
+/* Move banner  */
+
+
+/* 新品資訊 */
+.new-product{
+    background-color: black;
+    text-align: center;
+
+}
+.new-product p{
+    /* padding: 0; */
+    margin: 0;
+    color: white;
+    padding: 15px;
+}
+
+/* RWD */
+.product-watch{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.productWarp{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+.watch-card{
+    width: 350px;
+    /* height: 300px; */
+    /* padding: 20px; */
+    
+}
+.i-card{
+    width: 100%;
+    /* margin: 20px; */
+    text-align: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 30px 20px 20px 20px ;
+}
+.i-card img{
+    width: 195px;
+    height: 195px;
+    /* padding: 50px; */
+}
+.i-card h3,.i-card p{
+    margin: 0;
+    padding-bottom: 10px;
+}
+.watch-card,.col-3{
+    align-items: center;
+
+}
+img h3{
+    font-size: 1rem;
+    font-weight: bold;
+}
+/* 箭頭起頭 */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;  
+  background-image: none;
+  font-weight:100;   
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: azure;   
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 60px;
+  color: azure;
+}
+/* 箭頭尾 */
+
+
+
+
+/* NewS */
+ .even-news{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 64px 20px ;
+    
+}
+.even-news h2{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 0 40px;
+}
+.even-news-flex {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+   
+    margin: auto;
+    
+    
+}
+.even-news-list{
+    
+    padding: 0;
+    margin: 0 15px 20px 15px;
+    box-shadow: 1px 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+    overflow: hidden; 
+    
+}
+
+
+.card_image img{
+    width: 100%;
+    display: flex;
+    transition: .5s;
+}
+.card_image img:hover{
+    transform: scale(1.05);
+}
+
+
+.card_contacts{
+    width: 100%;
+    display: inline-block;
+    padding: 20px 30px ;
+}
+.card_contacts h4,
+.card_contacts p{
+    width: 100%;
+    display: block;
+}
+.card_contacts h4{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+}
+.card_contacts p{
+    font-size: 15px;
+    color: black;
+}
+
+/* 公告 */
+.new2{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 20px ;
+    margin-bottom: 30px;
+}
+
+
+.new2 h2{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 0 40px;
+}
+
+
+.card-news p{
+    width: 50px;
+    background-color:rgb(54, 47, 47);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: .8rem;
+    padding: 4px;
+}
+
+.card_newscontacts h5{
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 15px;
+    
+}
+
+.news-list{
+    
+    /* padding: 0; */
+    margin: 5px 15px 20px 15px;
+    
+}
+
+.card_newscontacts{
+    transform: all 1s ease;
+}
+.bt{
+    color: rgb(44, 116, 224);
+    background-color: white;
+    border:1px solid rgb(51, 126, 238);
+    font-size: .8rem;
+    padding: 5px 10px;
+    
+}
+.bt:hover{
+    color: white;
+    background-color:rgb(51, 126, 238); 
+}
+
+/* footer */
+
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.col-xs-1-5 {
+    width: 100%;
+    float: left;
+    justify-content: center;
+}
+
+
+
+@media (min-width: 768px) {
+.col-sm-1-5 {
+        width: 15%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-1-5 {
+        width: 15%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-1-5 {
+        width: 15%;
+        float: left;
+    }
+}
+
+.col-xs-1-5 h2,
+.col-sm-1-5 h2,
+.col-md-1-5 h2,
+.col-lg-1-5 h2{
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+} 
+
+.col-xs-1-5 ul,
+.col-sm-1-5 ul ,
+.col-md-1-5 ul ,
+.col-lg-1-5 ul {
+   padding: 0%;
+} 
+
+.col-xs-1-5 ul li,
+.col-sm-1-5 ul li,
+.col-md-1-5 ul li,
+.col-lg-1-5 ul li{
+    color: white;
+    list-style: none;
+    
+    
+} 
+
+.col-md-1-5{
+    margin: 20px 30px ;
+}
+.page-footer{
+    background-color: #000;
+    overflow:hidden;
+}
+
