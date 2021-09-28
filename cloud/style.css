@@ -1,0 +1,37 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300&display=swap"); */
+
+html {
+  /* 底色 */
+  background: #e8786e;
+}
+
+/* 雲的動畫 */
+.main .cloud {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 180px; /*調整雲的高度*/
+  background-size: 2500px 180px;
+  background: url(./images/cloud.png) repeat-x;
+  /* 用 infinite 來讓動畫永遠重複播放 */
+  animation: cloud 10s linear infinite;
+}
+/* linear：表示從開始到結束的速度一致 */
+
+@keyframes cloud {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: -2500px;
+  }
+}
+
+.main .cloud-1 {
+  opacity: 0.5;
+  height: 200px;
+  background-size: 2500px 200px;
+  animation-direction: reverse;
+  animation-duration: 15s;
+}
